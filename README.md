@@ -12,7 +12,7 @@ End-to-end deep learning pipeline for aircraft image analysis — including dete
 Este projeto implementa um **pipeline completo de visão computacional** para análise de imagens de aeronaves obtidas por satélite.  
 O sistema integra três módulos principais — **detecção, classificação e denoising** — baseados em **redes neurais convolucionais (CNNs)**, permitindo a identificação, categorização e restauração de imagens de aeronaves militares em diferentes condições de captura.
 
-O pipeline foi desenvolvido no contexto da **Residência em Tecnologias Aeroespaciais (IA)** do **Instituto Hardware BR**, em parceria com a **Universidade Estadual de Campinas (UNICAMP)**.
+O pipeline foi desenvolvido no contexto da **Residência em Tecnologias Aeroespaciais (IA)** do **Instituto Hardware BR**.
 
 ---
 
@@ -73,7 +73,6 @@ AeroVision-Pipeline/
 │   └── datasets_examples.png
 │
 ├── README.md
-└── requirements.txt
 ```
 
 ---
@@ -98,28 +97,6 @@ AeroVision-Pipeline/
 - **Google Colab (GPU gratuita)**
 - **OpenCV / NumPy / Matplotlib**
 - **scikit-learn / seaborn**
-
----
-
-## ⚙️ Configuração de Ambiente
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/gabrielbaltazar/AeroVision-Pipeline.git
-   cd AeroVision-Pipeline
-   ```
-
-2. Crie e ative o ambiente virtual:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate  # Linux
-   .venv\Scripts\activate     # Windows
-   ```
-
-3. Instale as dependências:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ---
 
