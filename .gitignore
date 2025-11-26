@@ -1,0 +1,22 @@
+# Datasets
+data/
+*.zip
+
+# Pesos de modelos
+*.h5
+*.keras
+*.pt
+*.weights
+
+# Outputs grandes
+
+detection/yolov11x_1000epoch4/weights
+denoising/modelo_unet_denoising_e200.h5
+denoising/modelo_unet_denoising_e200_best.keras
+
+classification/modelo_densenet_e100.h5
+classification/modelo_densenet_e100.keras
+classification/modelo_eficientnetv2s_e100_v2.h5
+classification/modelo_eficientnetv2s_e100_v2.keras
+classification/status_best_weights.weights_efficientnet_v2.h5
+classification/status_best_weights_densenet.weights.h5
