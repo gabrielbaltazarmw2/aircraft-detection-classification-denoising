@@ -12,6 +12,10 @@ End-to-end deep learning pipeline for aircraft image analysis — including dete
 Este projeto implementa um **pipeline completo de visão computacional** para análise de imagens de aeronaves obtidas por satélite.  
 O sistema integra três módulos principais — **detecção, classificação e denoising** — baseados em **redes neurais convolucionais (CNNs)**, permitindo a identificação, categorização e restauração de imagens de aeronaves militares em diferentes condições de captura.
 
+> 🔗 **Datasets e pesos treinados estão disponíveis no Google Drive:**  
+> https://drive.google.com/drive/folders/1tVNgTRkaeqNgxzMJM_CYBIH9EslHwXuT?usp=sharing
+
+
 O pipeline foi desenvolvido no contexto da **Residência em Tecnologias Aeroespaciais (IA)** do **Instituto Hardware BR**.
 
 ---
@@ -42,7 +46,6 @@ AeroVision-Pipeline/
 │
 ├── detection/
 │   ├── train_yolo11.ipynb
-│   ├── dataset.yaml
 │   ├── results/
 │   │   ├── training_map.png
 │   │   ├── training_pr.png
@@ -66,11 +69,6 @@ AeroVision-Pipeline/
 │   ├── aircraft-detection-with-yolov8/
 │   ├── airplanes-satellite-imagery/
 │   └── aircraft-classification/
-│
-├── figures/
-│   ├── architecture_unet.png
-│   ├── efficientnet_vs_params.png
-│   └── datasets_examples.png
 │
 ├── README.md
 ```
